@@ -1,0 +1,18 @@
+.EntityInput {
+	border: 2px #2688c098 solid;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+
+	&:hover,
+    &:focus {
+		border: 2px #2688c098 dotted;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}

@@ -1,0 +1,26 @@
+.Track {
+	column-gap: 1em;
+	display: grid;
+	grid-template-columns: 110px 1fr;
+	padding: 20px;
+
+	&_Image {
+		border: 3px #7eb8d9 solid;
+		border-radius: 5px;
+	}
+
+	dl {
+		margin: 0;
+		padding: 0;
+	}
+
+	dt {
+		font-size: 18px;
+		font-weight: 100;
+		margin: 0;
+
+		span {
+			font-weight: 400;
+		}
+	}
+}

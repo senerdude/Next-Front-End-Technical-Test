@@ -1,0 +1,12 @@
+.Home {
+	margin: 0 auto;
+	max-width: 768px;
+	min-height: 100vh;
+	padding: 0 10px 200px 10px;
+
+	.ScrollTop {
+		bottom: 30px;
+		position: fixed;
+		right: 30px;
+	}
+}

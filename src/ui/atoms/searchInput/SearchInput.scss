@@ -1,0 +1,18 @@
+.SearchInput {
+	border: 2px #2688c098 solid;
+	border-radius: 5px;
+	font-size: 18px;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	width: 100%;
+
+	&:hover,
+    &:focus {
+		border: 2px #2688c098 dotted;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}

@@ -1,0 +1,21 @@
+.SearchButton {
+	background-color: #4fb4ee;
+	border: 2px #2688c098 solid;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 18px;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+
+	&:hover,
+    &:focus {
+		background-color: #01a2ff;
+		border: 2px #2688c0 dotted;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}
